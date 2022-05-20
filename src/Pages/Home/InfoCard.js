@@ -10,9 +10,6 @@ const InfoCard = ({ img, cardTitle, bgClass}) => {
                 <div class="card-body text-white">
                     <h2 class="card-title">{cardTitle}</h2>
                     <p>Click the button to listen on Spotiwhy app.</p>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Listen</button>
-                    </div>
                 </div>
             </div>
         </div>
