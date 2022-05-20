@@ -6,7 +6,7 @@ import About from './Pages/About/About';
 import Review from './Pages/Review/Review';
 import Contact from './Pages/Contact/Contact';
 import Login from './Pages/Login/Login';
-import Appointment from './Pages/Contact/Appointment/Appointment';
+import Appointment from './Pages/Appointment/Appointment';
 import Error from './Pages/Error/Error';
 
 function App() {
