@@ -1,16 +1,17 @@
 import React from 'react';
 import chair from '../../assets/images/chair.png';
+import PrimaryButton from '../../Components/PrimaryButton';
 
 const Banner = () => {
     return (
         <div >
             <div class="hero min-h-screen">
                 <div class="hero-content flex-col lg:flex-row-reverse">
-                    <img src={chair} class="sm:max-w-sm rounded-lg shadow-2xl" />
+                    <img src={chair} className="sm:max-w-sm rounded-lg shadow-2xl" alt='' />
                     <div>
                         <h1 class="text-5xl font-bold">Your New Smile Starts Here</h1>
                         <p class="py-6">Provident cupiditate voluptatem et in.</p>
-                        <button class="btn btn-primary uppercase text-white bg-gradient-to-r from-secondary to-primary">Get Started</button>
+                        <PrimaryButton>Get Started</PrimaryButton>
                     </div>
                 </div>
             </div>
