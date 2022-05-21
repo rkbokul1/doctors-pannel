@@ -9,7 +9,7 @@ const Footer = () => {
             background: `url(${footer})`,
             backgroundSize: 'cover'
         }} className="py-5 mt-10 ">
-            <div className='footer'>
+            <div className='footer px-10'>
                 <div>
                     <span className="footer-title">Services</span>
                     <Link to='/' className="link link-hover">Branding</Link>
