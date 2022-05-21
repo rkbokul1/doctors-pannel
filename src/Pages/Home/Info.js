@@ -9,7 +9,7 @@ const Info = () => {
         <div className='container mx-auto'>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                 <InfoCard cardTitle="Opening Hours" bgClass='bg-gradient-to-r from-secondary to-primary' img={clock} />
-                <InfoCard cardTitle="Visit Our Location" bgClass='bg-accent' img={marker} />
+                <InfoCard cardTitle="Visit Our Location" bgClass='bg-neutral' img={marker} />
                 <InfoCard cardTitle="Contact Us" bgClass='bg-gradient-to-r from-secondary to-primary' img={phone} />
             </div>
         </div>
