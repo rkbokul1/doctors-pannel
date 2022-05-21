@@ -11,8 +11,9 @@ import Error from './Pages/Error/Error';
 
 function App() {
   return (
-    <div>
+    <div className='max-w-7xl mx-auto'>
       <Navbar />
+
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/home' element={<Home />}></Route>
@@ -23,6 +24,7 @@ function App() {
         <Route path='/login' element={<Login />}></Route>
         <Route path='/*' element={<Error/>}></Route>
       </Routes>
+
     </div>
   );
 }

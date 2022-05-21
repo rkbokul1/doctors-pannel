@@ -5,7 +5,7 @@ const Review = ({ review }) => {
         <div className="card md:max-w-sm lg:max-w-md bg-base-100 shadow-xl">
             <div className="card-body">
                 <h2 className="card-title">{review.name}</h2>
-                <p>If a dog chews shoes whose shoes does he choose? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium laborum quia hic! Rerum, beatae repellendus odio laboriosam voluptatem repudiandae harum!</p>
+                <p>If Link dog chews shoes whose shoes does he choose? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium laborum quia hic! Rerum, beatae repellendus odio laboriosam voluptatem repudiandae harum!</p>
 
                 <div className="my-3 flex items-center">
                     <div>
